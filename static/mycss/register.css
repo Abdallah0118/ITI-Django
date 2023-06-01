@@ -1,0 +1,54 @@
+form {
+  width: 500px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #04aa6d;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+span.psw {
+  float: right;
+}
+
+.text {
+  width: 250px;
+}
+
+.email {
+  border-bottom: 1px solid #ccc;
+}
+
+.w3lpass {
+  border-bottom: 1px solid #ccc;
+}
+
+.wthree-text {
+  margin-bottom: 10px;
+}
+
+.anim {
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 20px;
+  height: 20px;
+}
+
+.clear {
+  clear: both;
+}

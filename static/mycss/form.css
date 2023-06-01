@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  span.psw {
+    float: right;
+  }
