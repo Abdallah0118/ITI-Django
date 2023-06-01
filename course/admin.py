@@ -1,6 +1,5 @@
 from django.contrib import admin
-from course.models import *
+from .models import *
+# Register your models here.just for update commit
 
-
-# Register your models here.
-admin.site.register(Course)
+admin.site.register(Courses)

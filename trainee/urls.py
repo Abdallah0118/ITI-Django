@@ -1,12 +1,8 @@
-
 from django.urls import path
-from trainee.views import *
-
+from .views import *
 urlpatterns = [
-    path("", traineelist,name='traineelist'),
-    path("Add", traineeadd,name='traineeadd'),
-    path("Update/<int:id>", traineeupdate,name='traineeupdate'),
-    path("Delete/<int:id>", traineedelete,name='traineedelete'),
-
-    
+    path('', traineeList,name=''),
+    path('add', traineeAdd,name=''),
+    path('update/<int:id>',traineeUpdate,name='traineeUpdate'),
+    path('delete/<int:ID>',traineeDelete,name='traineeDelete'),
 ]

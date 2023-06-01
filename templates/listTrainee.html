@@ -1,0 +1,34 @@
+{%extends 'index.html' %}
+{%block title%}
+List Trainee
+{%endblock%} 
+{%block choise%}
+List Trainee
+{%endblock%} 
+{%block header%}
+List
+{%endblock%} 
+{%block content%}
+<table style="width: 100%;" border="1">
+    <tr>
+        <td>ID</td>
+        <td>Name</td>
+        <td>Course</td>
+        <td>OverWrite Obj</td>
+        <td>Action</td>
+    </tr>
+    {%for trainee in trainees%}
+        <tr>
+            <td>{{trainee.id}}</td>
+            <td>{{trainee.traineeName}}</td>
+            <td>{{trainee.courseID.courseName}}</td>
+            <td>{{trainee.courseID}}</td>
+            <td>
+                <a href="{%url 'traineeUpdate' trainee.id %}">Update</a>
+                <a href="{%url 'traineeDelete' trainee.id %}">Delete</a>
+            </td>
+        </tr>
+    {%endfor%}
+</table>
+
+{%endblock%} 
